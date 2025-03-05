@@ -27,7 +27,7 @@ Live Preview – Instantly updates and previews changes before finalizing the re
 
 #### Execution
 
-#### High-level logic contained in monthly_analysis_2.ipynb:
+#### High-level logic:
 
 ## The Program
 
