@@ -18,10 +18,9 @@ This project aims to create a user-friendly application designed to help users c
 
 ### Key Features
 
-1. Customizable Templates – Users can select from multiple resume styles to suit their industry and preferences.
-2. Auto-Formatting – Ensures consistent font sizes, alignment, and section spacing.
-3. PDF Export – Allows users to download their resume in a professional PDF format.
-4. Live Preview – Instantly updates and previews changes before finalizing the resume.
+1. Auto-Formatting – Ensures consistent font sizes, alignment, and section spacing.
+2. PDF Export – Allows users to download their resume in a professional PDF format.
+3. Live Preview – Instantly updates and previews changes before finalizing the resume.
 
 ### Usage and installation instructions
 
