@@ -46,6 +46,6 @@ Recruiters and hiring managers often prioritize well-formatted resumes, and this
 
 [marwabensalem30](https://github.com/marwabensalem30)
 
-[nabray0](https://github.com/nabray0)
+[nabray07](https://github.com/nabray07)
 
 [rgoldstein24](https://github.com/rgoldstein24)
