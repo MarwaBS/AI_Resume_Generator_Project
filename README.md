@@ -34,6 +34,8 @@ Recruiters and hiring managers often prioritize well-formatted resumes, and this
 
 ## Presentation
 
+[AI Resume Generator Presentation](https://docs.google.com/presentation/d/1dYNcGzHZJ7riSncaC3UqS4uJGNvLJwGZ/edit?usp=sharing&ouid=115049080126679246379&rtpof=true&sd=true)
+
 ## The Team
 
 [vinayakgrover](https://github.com/vinayakgrover)
