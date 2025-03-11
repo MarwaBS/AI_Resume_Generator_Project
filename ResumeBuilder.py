@@ -21,19 +21,21 @@ st.markdown(
             """,
             unsafe_allow_html=True,
         )
+# Write text
+
 st.markdown(
-            """
-            <div style="text-align: center;">
-                Enter Information for document generation
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-st.markdown("""
-    <style>
-    .stRadio [role=radiogroup]{
-        align-items: center;
-        justify-content: center;
-    }
-    </style>
-""",unsafe_allow_html=True)
+    "<div style='text-align: center; font-size: 24px;'>Enter information for document creation</div>",
+    unsafe_allow_html=True,
+)
+# Create a button, that when clicked, shows a text
+
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <a href="http://localhost:8501/Resume" target="_self"><button style="width: 100px;">Next</button></a>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+
