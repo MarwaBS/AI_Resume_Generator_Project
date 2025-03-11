@@ -1,0 +1,37 @@
+# {{ name }}'s Resume
+
+## Contact Information
+- **Name**: {{ name }}
+- **Email**: {{ email }}
+- **Phone**: {{ phone }}
+
+## Summary
+{{ summary }}
+
+## Experience
+{% for job in experience %}
+### {{ job.role }} at {{ job.company }}
+- **Location**: {{ job.location }}
+- **Duration**: {{ job.duration }}
+- **Responsibilities**:
+  {% for responsibility in job.description.split('\n') %}
+  - {{ responsibility }}
+  {% endfor %}
+{% endfor %}
+
+## Skills
+- {{ skills | join(', ') }}
+
+## Education
+{% for edu in education %}
+### {{ edu.degree }} from {{ edu.institution }}
+- **Graduation Year**: {{ edu.year }}
+- **Major**: {{ edu.major }}
+{% endfor %}
+
+## Projects
+{% for project in projects %}
+### {{ project.title }}
+- **Technologies Used**: {{ project.technologies | join(', ') }}
+- **Description**: {{ project.description }}
+{% endfor %}

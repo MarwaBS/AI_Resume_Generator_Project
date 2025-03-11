@@ -1,0 +1,39 @@
+# **{{ name }}**  
+{{ email }} | {{ phone }} | {{ linkedin }} | {{ github }}  
+
+---
+
+**PROFESSIONAL SUMMARY**  
+{{ summary }}  
+
+---
+
+**WORK EXPERIENCE**  
+
+{% for job in experience %}
+**{{ job.title }}**  
+{{ job.company }} | {{ job.years }}  
+- {{ job.description }}  
+{% endfor %}
+
+---
+
+**SKILLS**  
+{{ skills | join(", ") }}  
+
+---
+
+**PROJECTS**  
+
+{% for project in projects %}
+**{{ project.name }}**  
+- {{ project.description }}  
+- **Technologies Used:** {{ project.technologies | join(", ") }}  
+{% endfor %}
+
+---
+
+**EDUCATION**  
+
+{{ education.degree }}  
+{{ education.university }} | {{ education.years }}

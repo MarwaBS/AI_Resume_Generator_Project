@@ -1,0 +1,39 @@
+**{{ name }}**  
+{{ email }} | {{ phone }} | {{ linkedin }} | {{ github }}  
+
+---
+
+### **ABOUT ME**  
+{{ summary }}  
+
+---
+
+### **EXPERIENCE**  
+{% for exp in experience %}
+**{{ exp['title'] }}**  
+{{ exp['company'] }} | {{ exp['dates'] }}  
+- {{ exp['description'] }}  
+{% endfor %}
+
+---
+
+### **SKILLS**  
+{{ skills }}  
+
+---
+
+### **PROJECTS**  
+{% for proj in projects %}
+**{{ proj['name'] }}**  
+- {{ proj['description'] }}  
+- **Tools & Technologies:** {{ proj['technologies'] }}  
+{% endfor %}
+
+---
+
+### **EDUCATION**  
+{% for edu in education %}
+**{{ edu['degree'] }}**  
+{{ edu['institution'] }} | {{ edu['dates'] }}  
+- {{ edu['details'] }}  
+{% endfor %}
