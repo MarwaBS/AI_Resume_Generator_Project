@@ -18,7 +18,7 @@ This project aims to create a user-friendly application designed to help users c
 
 ### Key Features
 
-1. Auto-Formatting – Ensures consistent font sizes, alignment, and section spacing.
+1. *AI-generated cover letters* tailored to job descriptions and company details.
 2. PDF Export – Allows users to download their resume in a professional PDF format.
 3. Live Preview – Instantly updates and previews changes before finalizing the resume.
 
