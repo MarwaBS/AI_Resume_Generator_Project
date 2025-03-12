@@ -1,5 +1,5 @@
-from cover_letter import generate_cover_letter
-# from resume import generate_resume
+from cover_letter_generator import generate_cover_letter
+from resume_generator import generate_resume
 def main():
     # Example user input (dictionary)
     user_data = {

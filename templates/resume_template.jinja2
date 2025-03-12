@@ -9,14 +9,12 @@
 {{ summary }}
 
 ## Experience
-{% for job in experience %}
-### {{ job.role }} at {{ job.company }}
-- **Location**: {{ job.location }}
-- **Duration**: {{ job.duration }}
+{% for exp in experience %}
+### at {{ exp.company }}
+- **Location**: {{ exp.location }}
+- **Duration**: {{ exp.start }} - {{ exp.end }}
 - **Responsibilities**:
-  {% for responsibility in job.description.split('\n') %}
-  - {{ responsibility }}
-  {% endfor %}
+  {{ exp.description | bullet_points }}
 {% endfor %}
 
 ## Skills
@@ -24,14 +22,14 @@
 
 ## Education
 {% for edu in education %}
-### {{ edu.degree }} from {{ edu.institution }}
-- **Graduation Year**: {{ edu.year }}
+### from {{ edu.institution }}
+- **Graduation Year**: {{ edu.finish_year }}
 - **Major**: {{ edu.major }}
 {% endfor %}
 
 ## Projects
 {% for project in projects %}
 ### {{ project.title }}
-- **Technologies Used**: {{ project.technologies | join(', ') }}
-- **Description**: {{ project.description }}
+- **Technologies Used**: {{ project.tech_used }}
+- **Description**: {{ project.description | bullet_points }}
 {% endfor %}
