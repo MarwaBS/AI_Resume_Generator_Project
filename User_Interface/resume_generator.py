@@ -16,6 +16,7 @@ env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
 
 # Configure OpenAI API
 openai.api_key = "api key"
+
 def expand_text_with_openai(prompt, system_message):
     """
     Function to expand text using OpenAI API with error handling.
@@ -150,48 +151,48 @@ def generate_resume(data):
     except Exception as e:
         logging.error(f"Resume generation error: {e}")
         raise
-# Sample data to generate the resume
-user_data = {
-    "name": "Alex Doe",
-    "email": "Alex.doe@example.com",
-    "phone": "555-1234",
-    "skills": ["Python", "JavaScript", "HTML", "CSS", "Django", "React", "SQL"],
-    "experience": [
-        {
-            "company": "TechCorp",
-            "role": "Software Engineer",
-            "location": "San Francisco, CA",
-            "duration": "June 2018 - Present",
-            "description": "Led a team of 5 engineers to build a customer-facing web application.\nCollaborated with design and product teams to implement new features.\nOptimized backend APIs to reduce response times by 30%."
-        },
-        {
-            "company": "WebWorks",
-            "role": "Junior Developer",
-            "location": "Austin, TX",
-            "duration": "January 2016 - May 2018",
-            "description": "Developed internal tools to automate manual processes.\nWrote unit tests and maintained code quality across projects."
-        }
-    ],
-    "education": [
-        {
-            "degree": "B.Sc. in Computer Science",
-            "institution": "University of Example",
-            "year": "2015",
-            "major": "Computer Science"
-        }
-    ],
-    "summary": "A highly skilled software engineer with 5+ years of experience in developing scalable web applications and leading cross-functional teams. Passionate about solving challenging problems using modern technologies.",
-    "projects": [
-        {
-            "title": "Personal Finance App",
-            "technologies": ["React", "Node.js", "MongoDB"],
-            "description": "A personal finance tracker that helps users manage expenses and set savings goals."
-        },
-        {
-            "title": "Blog Platform",
-            "technologies": ["Django", "PostgreSQL", "AWS"],
-            "description": "A blog platform allowing users to create, edit, and share posts securely."
-        }
-    ]
-}
-generate_resume(user_data)
+# # Sample data to generate the resume
+# user_data = {
+#     "name": "Alex Doe",
+#     "email": "Alex.doe@example.com",
+#     "phone": "555-1234",
+#     "skills": ["Python", "JavaScript", "HTML", "CSS", "Django", "React", "SQL"],
+#     "experience": [
+#         {
+#             "company": "TechCorp",
+#             "role": "Software Engineer",
+#             "location": "San Francisco, CA",
+#             "duration": "June 2018 - Present",
+#             "description": "Led a team of 5 engineers to build a customer-facing web application.\nCollaborated with design and product teams to implement new features.\nOptimized backend APIs to reduce response times by 30%."
+#         },
+#         {
+#             "company": "WebWorks",
+#             "role": "Junior Developer",
+#             "location": "Austin, TX",
+#             "duration": "January 2016 - May 2018",
+#             "description": "Developed internal tools to automate manual processes.\nWrote unit tests and maintained code quality across projects."
+#         }
+#     ],
+#     "education": [
+#         {
+#             "degree": "B.Sc. in Computer Science",
+#             "institution": "University of Example",
+#             "year": "2015",
+#             "major": "Computer Science"
+#         }
+#     ],
+#     "summary": "A highly skilled software engineer with 5+ years of experience in developing scalable web applications and leading cross-functional teams. Passionate about solving challenging problems using modern technologies.",
+#     "projects": [
+#         {
+#             "title": "Personal Finance App",
+#             "technologies": ["React", "Node.js", "MongoDB"],
+#             "description": "A personal finance tracker that helps users manage expenses and set savings goals."
+#         },
+#         {
+#             "title": "Blog Platform",
+#             "technologies": ["Django", "PostgreSQL", "AWS"],
+#             "description": "A blog platform allowing users to create, edit, and share posts securely."
+#         }
+#     ]
+# }
+# generate_resume(user_data)

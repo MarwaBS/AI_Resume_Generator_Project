@@ -1,6 +1,6 @@
 import streamlit as st
 import datetime
-from ..App.resume_generator import generate_resume  # Import the resume generator
+from resume_generator import generate_resume  # Import the resume generator
 
 def resume_section():
     st.subheader("Resume Details")
@@ -182,12 +182,13 @@ def resume_section():
             "name": st.session_state.user_details.get('name', ''),
             "email": st.session_state.user_details.get('email', ''),
             "phone": st.session_state.user_details.get('phone', ''),
-            "skills": st.session_state.user_details.get('skills', '').split(','),
-            "experience": st.session_state.work_experience,
-            "education": st.session_state.education,
+            "skills": [skill.strip() for skill in st.session_state.user_details.get('skills', '').split(',') if skill.strip()],
+            "experience": st.session_state.work_experience if st.session_state.work_experience else [{"title": "N/A", "company": "N/A", "location": "N/A", "start": "N/A", "end": "N/A", "description": "N/A"}],
+            "education": st.session_state.education if st.session_state.education else [{"title": "N/A", "institution": "N/A", "finish_year": "N/A", "major": "N/A"}],
             "summary": st.session_state.user_details.get('summary', ''),
-            "projects": st.session_state.projects
+            "projects": st.session_state.projects if st.session_state.projects else [{"title": "N/A", "description": "N/A", "tech_used": "N/A"}]
         }
+
 
         # Generate the resume PDF
         try:
