@@ -87,8 +87,6 @@ The process involves:
 5. **Formatting and Optimization:** The resume is formatted and optimized for keywords.
 6. **Output:** The user can download the resume in the desired format.
 
-
-
 ### The Program
 
   **Real World Application**
@@ -96,8 +94,6 @@ The process involves:
 The Resume Generator has real-world applications across various industries by streamlining the resume creation process for job seekers. Whether for recent graduates, career changers, or professionals looking to update their resumes, this tool provides a fast, efficient, and user-friendly way to craft well-structured, professional resumes.
 
 Recruiters and hiring managers often prioritize well-formatted resumes, and this program ensures consistent styling, clear organization, and ATS (Applicant Tracking System) compatibility, improving the chances of landing interviews. Additionally, businesses and career coaching services can integrate this tool into their platforms to assist clients in resume-building, making it a valuable asset in the job market.
-
-
 
 **How to Generate a Cover Letter**
 
@@ -150,6 +146,23 @@ resume-cover-letter-generator/
 - Logs are saved to `resume_generator.log` and `cover_letter_generator.log`.
 - Errors in AI generation or PDF conversion are logged and displayed.
 
+**How it Works**
+
+![Image 1](image_1.png)
+
+The first screen of the application serves as the user input form, where users provide essential details for generating their cover letter or resume. It includes fields for the user's full name, email, phone number, LinkedIn URL, GitHub profile, years of experience, professional summary, and key skills. The interface is designed to be clean and intuitive, ensuring a seamless experience while entering information.
+
+![Image 2](image_2.png)
+
+The second screen allows users to input their educational background by providing details such as degree, institution, start date, end date, and additional details about their studies. Users can add multiple entries to accommodate various degrees or institutions they have attended. The interface includes an "Add Another" button, enabling users to input multiple schools seamlessly. Each entry is structured clearly, ensuring that users can easily review and edit their educational history before proceeding.
+
+![Image 3](image_3.png)
+
+The third screen focuses on the user's project experience, allowing them to input details for each project they have worked on. Users can enter the project title, a brief description outlining its purpose and impact, and the technologies used. The interface supports adding multiple projects with an "Add Another" button, ensuring users can showcase a diverse range of work. This structured approach helps highlight technical expertise and practical experience effectively.
+
+![Image 4](image_4.png)
+
+The final screen is dedicated to the user's work experience, where they can input details about their previous and current job roles. Users enter their job title, company name, start date, end date, and a description of their responsibilities and achievements. Like the previous sections, this screen allows users to add multiple jobs, ensuring a comprehensive work history. This structured input helps create a well-rounded resume that effectively showcases professional experience.
 
 ### Contributing
 
