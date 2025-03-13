@@ -2,47 +2,49 @@
 
 ## Table of Contents
 
-[Overview](#overview)
-
-[The Program](#the-program)
-
-[Presentation](#presentation)
-
-[The Team](#the-team)
+- [Project Overivew](#overview)
+- [Features](#features)
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [How It Works](#how-it-works)
+- [The Program](#the-program)
+- [Contributing](#contributing)
+- [Presentation](#presentation)
+- [License](#license)
+- [The Team](#the-team)
 
 ## Project Overview
 
 ### Overview
 
-This project aims to create a user-friendly application designed to help users create professional and polished resumes quickly. The project leverages Python and Gradio to provide an interactive interface where users input their details, such as personal information, work experience, education, skills, and certifications. The application then formats the data into a structured resume template, ensuring clarity and professionalism.
+This project aims to create a user-friendly application designed to help users create professional and polished resumes quickly. The project leverages Python, Machine Learning, Neural Network to generate Resume and/or Cover Letter and Streamlit to provide an interactive interface where users input their details, such as personal information, work experience, education, skills, and certifications. The application then formats the data into a structured resume template, ensuring clarity and professionalism.
 
-### Key Features
+## Features
 
-- **AI-generated cover letters** tailored to job descriptions and company details.
-- **AI-enhanced resumes** with optimized summaries, work experiences, and project descriptions.
-- **Grammar and spelling corrections** using LanguageTool.
-- **Conversion to multiple formats** (Markdown, HTML, and PDF).
-- **Logging and error handling** for smooth operation.
+- **AI-Powered cover letters** tailored to job descriptions and company details.
+- **AI-Powered Content Generation:** Analyzes user input (skills, experience, education) and generates relevant resume content.
+- **Natural Language Processing (NLP):** Extracts key information from user input and understands context.
+- **Keyword Optimization:** Suggests relevant keywords based on job descriptions.
+- **Automatic Formatting:** Ensures consistent and professional resume formatting.
+- **Downloadable Formats:** Supports PDF, DOCX, and other common resume formats.
+- **User-Friendly Interface:** Provides an intuitive and easy-to-use experience.
 
-## The Program
 
-### Real World Application
 
-The Resume Generator has real-world applications across various industries by streamlining the resume creation process for job seekers. Whether for recent graduates, career changers, or professionals looking to update their resumes, this tool provides a fast, efficient, and user-friendly way to craft well-structured, professional resumes.
+### Prerequisites
 
-Recruiters and hiring managers often prioritize well-formatted resumes, and this program ensures consistent styling, clear organization, and ATS (Applicant Tracking System) compatibility, improving the chances of landing interviews. Additionally, businesses and career coaching services can integrate this tool into their platforms to assist clients in resume-building, making it a valuable asset in the job market.
+Before you begin, ensure you have the following installed:
+
+- Python 3.8+
+- pip (Python package installer)
+- [List any specific libraries, e.g., TensorFlow, PyTorch, Streamlit, etc.]
+- wkhtmltopdf (for PDF conversion)
+- Streamlit for generating user interface
 
 ### Installation
-
-#### Prerequisites
-
-Ensure you have the following installed:
-
-1. Python 3.8+
-2. pip package manager
-3. wkhtmltopdf (for PDF conversion)
-
-#### Setup
 
 1. Clone this repository:
    ```bash
@@ -59,7 +61,45 @@ Ensure you have the following installed:
 
 ### Usage
 
-#### Generating a Cover Letter
+1. Run the application:
+
+   ```bash
+   streamlit run app.py # If using streamlit.
+   python main.py # If a standard python app.
+Open your web browser and navigate to http://localhost:8501 (or the appropriate address).
+
+Follow the on-screen instructions to input your information and generate your resume.
+
+### How It Works:
+
+The AI Resume Builder utilizes the following technologies:
+
+- **Natural Language Processing (NLP):** [Briefly explain the NLP techniques used, e.g., tokenization, entity recognition, sentiment analysis].
+- **Machine Learning (ML):** [Briefly explain the ML models used, e.g., text generation models, classification models].
+- **[Other Technologies]:** [Mention any other relevant technologies or frameworks].
+
+The process involves:
+
+1. **User Input:** The user provides their information through the web interface.
+2. **Data Processing:** The input is processed using NLP techniques to extract key information.
+3. **Content Generation:** The AI models generate resume content based on the extracted information.
+4. **Template Application:** The generated content is applied to the selected resume template.
+5. **Formatting and Optimization:** The resume is formatted and optimized for keywords.
+6. **Output:** The user can download the resume in the desired format.
+
+
+
+### The Program
+
+  **Real World Application**
+
+The Resume Generator has real-world applications across various industries by streamlining the resume creation process for job seekers. Whether for recent graduates, career changers, or professionals looking to update their resumes, this tool provides a fast, efficient, and user-friendly way to craft well-structured, professional resumes.
+
+Recruiters and hiring managers often prioritize well-formatted resumes, and this program ensures consistent styling, clear organization, and ATS (Applicant Tracking System) compatibility, improving the chances of landing interviews. Additionally, businesses and career coaching services can integrate this tool into their platforms to assist clients in resume-building, making it a valuable asset in the job market.
+
+
+
+**How to Generate a Cover Letter**
 
 Modify `test_user_info` with your details and run:
 
@@ -69,7 +109,7 @@ python cover_letter_generator.py
 
 This will generate a Markdown file, an HTML file, and a PDF of the cover letter.
 
-#### Generating a Resume
+**How to Generate a Resume**
 
 Modify `user_data` with your details and run:
 
@@ -79,7 +119,7 @@ python resume_generator.py
 
 This will generate a professional resume in multiple formats.
 
-### File Structure
+**Program File Structure**
 
 ```
 resume-cover-letter-generator/
@@ -95,7 +135,7 @@ resume-cover-letter-generator/
 |-- README.md
 ```
 
-### Dependencies
+**Dependencies**
 
 - `openai`
 - `jinja2`
@@ -105,10 +145,23 @@ resume-cover-letter-generator/
 - `language_tool_python`
 - `logging`
 
-### Logging and Error Handling
+**Logging and Error Handling**
 
 - Logs are saved to `resume_generator.log` and `cover_letter_generator.log`.
 - Errors in AI generation or PDF conversion are logged and displayed.
+
+
+### Contributing
+
+We welcome contributions to the Resume and Cover Letter Builder! To contribute:
+
+Fork the repository.
+Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name.
+Make your changes and commit them: git commit -m 'Add your feature'.   
+Push to the branch: git push origin feature/your-feature-name.
+Submit a pull request.   
+
+  
 
 ### License
 
