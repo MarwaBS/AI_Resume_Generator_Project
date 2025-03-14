@@ -220,19 +220,25 @@ The process involves:
 
 
 ![Personal Information](image_1.PNG)
+
 The first screen of the application serves as the user input form, where users provide essential details for generating their resume or cover letter. It includes fields for the user's full name, email, phone number, LinkedIn URL, GitHub profile, years of experience, professional summary, and key skills. The interface is designed to be clean and intuitive, ensuring a seamless experience while entering information.
+
 
 ![Education](image_2.PNG)
 
 The second screen allows users to input their educational background by providing details such as degree, institution, start date, end date, and additional details about their studies. Users can add multiple entries to accommodate various degrees or institutions they have attended. The interface includes an "Add Another" button, enabling users to input multiple schools seamlessly. Each entry is structured clearly, ensuring that users can easily review and edit their educational history before proceeding.
 
+
 ![Projects ](image_3.PNG)
 
 The third screen focuses on the user's project experience, allowing them to input details for each project they have worked on. Users can enter the project title, a brief description outlining its purpose and impact, and the technologies used. The interface supports adding multiple projects with an "Add Another" button, ensuring users can showcase a diverse range of work. This structured approach helps highlight technical expertise and practical experience effectively.
 
+
+
 ![Work Experience](image_4.PNG)
 
 The final screen is dedicated to the user's work experience, where they can input details about their previous and current job roles. Users enter their job title, company name, start date, end date, and a description of their responsibilities and achievements. Like the previous sections, this screen allows users to add multiple jobs, ensuring a comprehensive work history. This structured input helps create a well-rounded resume that effectively showcases professional experience.
+
 
 ![cover Letter](image_5.PNG)
 
