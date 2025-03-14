@@ -216,28 +216,23 @@ The process involves:
 5. **Formatting and Optimization:** The resume is formatted and optimized for keywords.
 6. **Output:** The user can download the resume in the desired format.
 
-![Image 1](perso_info.png)
-
-**Personal Information**
+![Personal Information](image_1.png)
 The first screen of the application serves as the user input form, where users provide essential details for generating their resume or cover letter. It includes fields for the user's full name, email, phone number, LinkedIn URL, GitHub profile, years of experience, professional summary, and key skills. The interface is designed to be clean and intuitive, ensuring a seamless experience while entering information.
 
-![Image 2](Education.png)
+![Education](image_2.png)
 
-**Education**
 The second screen allows users to input their educational background by providing details such as degree, institution, start date, end date, and additional details about their studies. Users can add multiple entries to accommodate various degrees or institutions they have attended. The interface includes an "Add Another" button, enabling users to input multiple schools seamlessly. Each entry is structured clearly, ensuring that users can easily review and edit their educational history before proceeding.
 
-![Image 3](project.png)
-**Projects**
+![Projects ](image_3.png)
+
 The third screen focuses on the user's project experience, allowing them to input details for each project they have worked on. Users can enter the project title, a brief description outlining its purpose and impact, and the technologies used. The interface supports adding multiple projects with an "Add Another" button, ensuring users can showcase a diverse range of work. This structured approach helps highlight technical expertise and practical experience effectively.
 
-![Image 4](work_exp.png)
+![Work Experience](image_4.png)
 
-**Work Experience**
 The final screen is dedicated to the user's work experience, where they can input details about their previous and current job roles. Users enter their job title, company name, start date, end date, and a description of their responsibilities and achievements. Like the previous sections, this screen allows users to add multiple jobs, ensuring a comprehensive work history. This structured input helps create a well-rounded resume that effectively showcases professional experience.
 
-![Image 4](image_5.png)
+![Cover Letter](image_5.png)
 
-**Cover Letter**
 The app also includes a dedicated section for generating AI-powered cover letters. Users can input the job title, company name, and job description, and the app will generate a professional cover letter tailored to the job. The cover letter is formatted using Jinja2 templates and can be downloaded in PDF format.
 
 ## Conclusion
