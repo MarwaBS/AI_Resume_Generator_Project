@@ -235,7 +235,7 @@ The third screen focuses on the user's project experience, allowing them to inpu
 **Work Experience**
 The final screen is dedicated to the user's work experience, where they can input details about their previous and current job roles. Users enter their job title, company name, start date, end date, and a description of their responsibilities and achievements. Like the previous sections, this screen allows users to add multiple jobs, ensuring a comprehensive work history. This structured input helps create a well-rounded resume that effectively showcases professional experience.
 
-![Image 4](cover_letter.png)
+![Image 4](image_5.png)
 
 **Cover Letter**
 The app also includes a dedicated section for generating AI-powered cover letters. Users can input the job title, company name, and job description, and the app will generate a professional cover letter tailored to the job. The cover letter is formatted using Jinja2 templates and can be downloaded in PDF format.
