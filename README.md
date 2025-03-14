@@ -219,7 +219,7 @@ The process involves:
 ![Home page ](Resume.PNG)
 
 
-![Personal Information](image_1.png)
+![Personal Information](image_1.PNG)
 The first screen of the application serves as the user input form, where users provide essential details for generating their resume or cover letter. It includes fields for the user's full name, email, phone number, LinkedIn URL, GitHub profile, years of experience, professional summary, and key skills. The interface is designed to be clean and intuitive, ensuring a seamless experience while entering information.
 
 ![Education](image_2.PNG)
